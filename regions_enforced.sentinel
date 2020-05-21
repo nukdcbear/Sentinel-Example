@@ -3,6 +3,7 @@
 
 ##### Imports #####
 import "tfplan"
+import "tfconfig"
 
 # Allowed EC2 Regions
 # Include "null" to allow missing or computed values
