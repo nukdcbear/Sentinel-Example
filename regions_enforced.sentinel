@@ -95,7 +95,7 @@ allowed_zones = [
 ##### Rules #####
 
 # Call the validation function
-zones_validated = validate_attribute_in_list("aws_instance", "availability_zone", allowed_zones)
+zones_validated = validate_attribute_in_list("aws_route", "availability_zone", allowed_zones)
 
 # Main rule
 main = rule {
