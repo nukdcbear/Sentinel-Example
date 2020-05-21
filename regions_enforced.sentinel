@@ -97,7 +97,7 @@ allowed_zones = [
 # Call the validation function
 route_zones_validated = validate_attribute_in_list("aws_route", "availability_zone", allowed_zones)
 
-instances_zones_validated = validate_attribute_in_list("aws_instance", "availability_zone", allowed_zones)
+instance_zones_validated = validate_attribute_in_list("aws_instance", "availability_zone", allowed_zones)
 
 asg_zones_validated = validate_attribute_in_list("aws_autoscaling_group", "availability_zone", allowed_zones)
 
